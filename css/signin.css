@@ -1,0 +1,57 @@
+body{background: url(../img/bg3.jpg) no-repeat fixed;
+    position: relative;
+-moz-background-size: 100% 100%;
+-webkit-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;}
+input[type="text"]:focus{outline: none;}
+input[type="password"]:focus{outline: none;}
+input[type="email"]:focus{outline: none;}
+input[type="button"]:focus{outline: none;}
+input[type="text"]{width: 100%;}
+input[type="email"]{width: 65%;}
+input[type="password"]{width: 65%;}
+
+
+#login {width:21%; height:500px;  border:solid black 0px; margin-top:50px; margin-left:70%; background:whitesmoke; color:black; box-shadow: 0 0 2px; border-radius:3px; position: absolute;}
+#signup {width: 350px; height:300px; border:solid black 1px; margin:0 auto; margin-top:20px; background:black; opacity:0.7;}
+#new {font-family: sans-serif; color:white; font-size: 21pt; margin-left:85px;}
+#form{text-align: center; -webkit-align-content: center;}
+#flogo {width:15.625%; min-width: 450px; min-height: 350px; height:340px; background: url(../img/logo4.png) no-repeat; position: relative; margin-left:15.833%; margin-top: -5%; float: left;}
+.hrr{border-color: powderblue; width:80%; margin-top: 2px;}
+
+.input {width:250px; height:50px; font-size:15pt; color:cornflowerblue; -moz-text-decoration-color: black; border:none; border-bottom: solid #b6b8b9 1px !important; border-radius: 0; box-sizing: border-box; padding-top:7px; background-color: whitesmoke; }
+.button_h {width:150px; height:45px; color:black; font-size:15pt; background:cornflowerblue;  border:solid 0px; margin:0 auto;cursor:pointer; font-family: "Tahoma"; }
+.button_h:hover {background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2; border:solid 0px;}
+
+.text_about {color:black; margin-top:10px; font-family: Tahoma; font-size: 15pt; text-align: center;}
+.forgot {color:cornflowerblue; margin-left:145px; margin-top:20px;}
+.registr {color:cornflowerblue;}
+
+
+
+
+
+@media screen and (max-width: 1500px){
+	body{background:red;}
+	#login {width:45%;  border:solid black 0px; margin-top:50px; background:whitesmoke; color:black; box-shadow: 0 0 2px; border-radius:3px; position: relative; right:10%;}
+}
+
+@media screen and (max-width: 1200px){
+	#flogo{display: none;}
+	#login {width:35%;  border:solid black 0px; margin-top:50px; background:whitesmoke; color:black; box-shadow: 0 0 2px; border-radius:3px; position: relative; right:10%;}
+}
+
+@media screen and (max-width: 768px){
+	body{background:#b5dcf9;}
+	#flogo{display: none;}
+	#login {width:55%; position: relative; right: 45%;}
+}
+@media screen and (max-width: 480px){
+    body{background:#b5dcf9;}
+	#login {width:100%; }
+}
+@media screen and (max-width: 320px){
+    body{background:#b5dcf9;}
+    #login {width:100%; position:absolute; left:0px; margin-left:0px; margin-top:5px;}
+}

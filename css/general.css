@@ -1,0 +1,121 @@
+*{margin: 0;}
+body {background:#fafafa; margin: 0; overflow-y:scroll;}
+input[type="text"]:focus{outline: none;}
+input[type="password"]:focus{outline: none;}
+input[type="email"]:focus{outline: none;}
+input[type="button"]:focus{outline: none;}
+textarea:focus{outline: none;}
+
+
+
+/* Для будущего */
+#profile {width: 300px; height:100px; border: solid black 1px;}
+/*#feed_menu {width: 800px; height:auto; border: solid powderblue 0px; margin-left: 30%; margin-top:80px; border-top:none; position: relative;}*/
+.feed_cart {width:35%; height: auto; border: solid whitesmoke 0px; margin: 0 auto; margin-top:40px; box-shadow: 0 0 1px; background: white; padding: 0px; font-size: 15pt; text-align: center;}
+#feed_profile {width:100%; height:70px; border-bottom:solid 1px lightgrey; }
+#feed_question {width:100%;}
+/*#feed_comments{width: 600px; height: 300px; border: solid 1px lightgrey; margin-top:200px;}*/
+.add_comment2{width:7%; height: 53px; border: none; border-top: solid 1px lightgrey; float: right; background-image: url("../img/send8.png");}
+.add_comment2:hover{background-image: url("../img/sendHover.png"); cursor: pointer;}
+.add_comment{width:93%; height: 53px; font-size: 12pt; color:black; border-top:solid 1px lightgrey; border-left:none; border-right: none; border-bottom:none; box-sizing: border-box; padding: 5px;}
+
+.results{display: block; text-align: left; margin-left: 0px;}
+
+.answers {width: 100%; text-align: left; margin-left:5%; display: block;}
+.sendResult{width:150px; height:30px; color:black; font-size:15pt; background:#1084dd; border:solid 0px green; cursor:pointer; font-family: "Tahoma";}
+.sendResult:hover {background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2;}
+
+#sand_question{background: #46b3ff; padding: 5px; font-size: 18pt; height:250px; box-shadow: 0 0  5px blue;}
+#sand_menu{width:70%; height: auto; border:solid 0px black; display: none; margin-left: 50px;  position: absolute;}
+#sand_cart{width:22%; min-height: 250px; height: 370px; border: solid whitesmoke 0px; box-shadow: 0 0 1px; background: white; padding: 0px; font-size: 15pt; text-align: center; float:left; margin-left: 30px; margin-top:40px;}
+
+.block{margin: 0 auto; text-align: left;}
+.progress{background-image: url("../img/progress.png"); border-radius: 10px;}
+/*  Шапка  */
+.header {width:100%; height:60px; border: solid black 0px; align-self: center; box-shadow: 0 0 10px rgba(0,0,0,0.5); display:block; background:#1084dd; position:relative;}
+
+/* Лого */
+#logo {width: 400px; height: 60px; background: url("../img/flogo3.png") no-repeat; margin-top:0px; position: absolute; border:solid 0px black;}
+
+/* Подумать\Песочница */
+.hotornot {width: 35%; height:30px;  border:solid 1px lightgrey; margin: 0 auto; margin-top:10px;}
+
+/* Посмотреть что это */
+.about {width:500px; height:300px; border:solid white 1px; margin:0 auto; margin-top:20px; box-shadow:0 0 5px;}
+.text_about {color:black; margin-top:10px; font-family: Tahoma; font-size: 15pt; text-align: center;}
+
+/* Кнопка выйти наверху (head)*/
+.button_h {width:150px; height:60px; color:black; font-size:15pt; background:#1084dd; border:solid 0px green; cursor:pointer; margin-left:90%; margin-top:0px; font-family: "Tahoma";}
+.button_h:hover {background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2; border:solid 0px;}
+
+
+/* Кнопка на главную */
+.button_m {width:150px; height:60px; color:black; font-size:15pt; background:#1084dd; margin-top:0px; border:solid 0px green; cursor:pointer; font-family: "Tahoma";}
+.button_m:hover {background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2; border:solid 0px;}
+
+/* Кнопка регистрации (registration)*/
+.button_r{width:200px; height:45px; color:black; font-size:15pt; background:cornflowerblue;  border:solid 0px green; margin: 0 auto; cursor:pointer; font-family: "Tahoma";}
+.button_r:hover {background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2; border:solid 0px;}
+
+/* Кнопка задать вопрос  (create) */
+#button_c{width:10.4%; height:45px; color:black; font-size: 15pt; background:cornflowerblue; border:solid 0px green; margin-left: 75%; margin-top:80px; position: fixed; cursor: pointer; font-family: Tahoma;}
+#button_c:hover{background:#477FE6; box-shadow: inset 0px 0px 20px 1px #0855e2;}
+
+#btnLoad{}
+.hrr{margin-top:120px; width:600px; border-color: lightgrey;}
+
+/* Формы отправки */
+.form{text-align: center; -webkit-align-content: center;}
+/* Ввод */
+.input {width:250px; height:50px; font-size:15pt; color:cornflowerblue; border:none; border-bottom: solid #b6b8b9 1px !important; border-radius: 0; box-sizing: border-box; padding-top:7px; background-color: whitesmoke; }
+.input_quest {width:250px; height: auto; font-size:10pt; color:cornflowerblue;}
+.textarea {resize: none; width: 300px; height: 140px; font-size: 14pt; font-family: Tahoma;}
+
+/* Кнопка на главную */
+.out {width:250px; height:50px; margin-left:90%;}
+
+/* Звездочка */
+.star {color:red;}
+/* Форма регистрации */
+#reg {width:20.83%; height:500px;  border:solid black 0px; margin-top:50px; margin-left:70%; background:whitesmoke; color:black; box-shadow: 0 0 2px; border-radius:3px;}
+
+/* Poll */
+#poll {width:19.8%; height:550px; border:solid black 0px; margin-left:75%; margin-top:150px; box-shadow: 0 0 5px; font-family: Tahoma; font-size:15pt; display: none; position: fixed;}
+
+/* Кнопка загрузки опросов */
+#loadPolls {width:200px; height:100px; margin:0 auto; margin-left: 45%; font-size: 11pt; position: absolute; background: url("../img/loadPolls7.png") no-repeat; cursor: pointer; }
+#loadPolls:hover {background: url("../img/loadPollsHover.png") no-repeat;}
+
+
+
+/* Кнопка загрузки комментариев */
+.loadComments {text-align: left; color:grey; text-decoration: underline;}
+.loadComments:hover{color:darkslategrey; cursor: pointer;}
+
+/* Песочница */
+.sandbox {text-decoration: underline; cursor: pointer;}
+
+
+.plus{float:right; width:20%; height:30px; border:solid 0px whitesmoke;  box-shadow: 0 0 1px; margin-right:5px; margin-bottom:5px;}
+.plus:hover{box-shadow: 0 0 2px; cursor: pointer;}
+.minus{float:left; width:20%; height:30px; border:solid 0px whitesmoke;  box-shadow: 0 0 1px; margin-left:5px; margin-bottom:0px; margin-top:23px;}
+.minus:hover{box-shadow: 0 0 2px; cursor: pointer;}
+.rate{font-size: 15pt; border:solid 0px black; width:20%; margin: 0 auto; }
+
+
+@media screen and (max-width: 480px){
+	.out{display: none;}
+	.header{display: none;}
+	#reg{width: 100%; margin-left:0px; margin-top:10px;}
+	.button_r{width:210px;}
+}
+
+@media screen and (max-width: 320px){
+	.out{display: none;}
+	.header{display: none;}
+	#reg{width: 100%; margin-left:0px; margin-top:10px;}
+    /*#sand_menu{width:100%; height: 300px; border:solid 1px black; position: absolute;}*/
+    #sand_cart{width:100%; min-height: 100px; height: auto; border: solid whitesmoke 0px; float: none; box-shadow: 0 0 1px; background: white; padding: 0px; font-size: 15pt; text-align: center; margin-top:40px;}
+    #button_c{display: none;}
+}
+
